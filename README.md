@@ -8,17 +8,15 @@
 ## [Microprofile Metrics](https://quarkus.io/guides/microprofile-metrics)
 ## [Microprofile Health](https://quarkus.io/guides/microprofile-health)
 
+[.](https://github.com/Maxwahl/jeopardized)
+[.](https://github.com/1920-5bhif-nvs/02-microservices-individual-tasks-leonkuchinka)
+
 #### ````docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres````
 
-````quarkus.datasource.url=jdbc:postgresql://localhost/postgres
+```` quarkus.datasource.url=jdbc:postgresql://localhost/postgres
 quarkus.datasource.driver=org.postgresql.Driver
 quarkus.datasource.username=postgres
 quarkus.datasource.password=passme
 quarkus.datasource.min-size=3
 quarkus.datasource.max-size=13
-
-quarkus.hibernate-orm.database.generation=drop-and-create````
-
-[.](https://github.com/Maxwahl/jeopardized)
-[.](https://github.com/1920-5bhif-nvs/02-microservices-individual-tasks-leonkuchinka)
-
+quarkus.hibernate-orm.database.generation=drop-and-create ````
