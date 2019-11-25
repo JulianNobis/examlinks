@@ -13,6 +13,8 @@
 
 #### ````docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres````
 
+````at.htl.jeopardized.business.JeopardyService/mp-rest/url=http://jservice.io````
+
 ```` quarkus.datasource.url=jdbc:postgresql://localhost/postgres
 quarkus.datasource.driver=org.postgresql.Driver
 quarkus.datasource.username=postgres
